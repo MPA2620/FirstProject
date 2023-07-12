@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./favicon.ico" />
     <meta name="theme-color" content="#000000" />
-    <title>Simple Portfolio</title>
+    <title>MPA at CodingDays</title>
     <link rel="stylesheet" type="text/css" href="src/css/index.css">
     <!-- Add additional CSS & JS files as necessary here -->
 </head>
@@ -12,7 +12,11 @@
 <!-- Add your site or application content here -->
 <div id="root">
     <img src="src/assets/logo.svg" class="logo" alt="logo" />
+    <button id="alert-button" onclick="GetElement()">Alert Button</button>
+    <button id="change-bg">Change background</button>
+    <button id="reset-bt">Reset Page to Default</button>
     <h1>Welcome to Simple Portfolio at AMICUS CODING DAYS!</h1>
+    <h1 style="text-align: center">Welcome to my first made portfolio</h1>
     <p>
         This boilerplate is ready for HTML/CSS, Javascript, and JQuery projects.
         It includes a live server that lets you see HTML/JS/CSS changes with every save.
@@ -32,6 +36,9 @@
         Images can be stored in src/assets.
     </p>
 </div>
+
+<div id="test"></div>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <!-- ================================ -->
 <!-- Add more JavaScript files here!! -->

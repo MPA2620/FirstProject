@@ -2,7 +2,7 @@
 
 const changeSubtextBackground = () => {
   // document.querySelector() selects an HTML element from the page by its attribute
-    // ids are selected with the '#' preceeding the ID name
+    // ids are selected with the '#' preceding the ID name
 
   // here we are selecting the <p id='subtext'></p> tag in our index.html
   const subtext = document.querySelector('#subtext');
@@ -21,4 +21,16 @@ exampleJavaScriptFn();
 // then it will color its background blue
 changeSubtextBackground();
 
+function GetElement(){
+  alert("Hi, this is my first alert!");
+}
 
+const colorBtn = document.getElementById('change-bg');
+colorBtn.addEventListener('click',() => {
+  document.body.style.background = 'green';
+})
+
+const resetBtn = document.getElementById('reset-bt');
+resetBtn.addEventListener('click',() => {
+  document.location.reload();
+})
